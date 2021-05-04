@@ -1,0 +1,3 @@
+In this part I used IDA to find the got entry of check_if_virus (simply clicked on the function to get the plt and the got entry is written there).
+Than I used IDA to find a function with the same signature (I used is_directory) and changed the got entry.
+

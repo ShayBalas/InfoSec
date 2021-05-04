@@ -1,0 +1,3 @@
+In this part in order to find pid i sent a payload "ps -a | grep antivirus".
+ps -a sorts all running processes and grep antivrus filters the result.
+Than I iterated the product lines (result of ps -a | grep antivurus) and extracted the pid.

@@ -1,0 +1,1 @@
+In this part I first attached to the antivirus, than I waited for a syscall, pulled eax to chack the syscall number, waited for the syscall to exit and rewrite edx to be 0.

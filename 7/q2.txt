@@ -1,0 +1,5 @@
+In this part I found check_if_virus address with gdb after runtime (external library is linked in runtime).
+I attached to the process and changed the first 3 bytes of check_if_virus code to be:
+xor eax, eax;
+ret;
+
